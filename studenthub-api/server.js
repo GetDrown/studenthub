@@ -1,6 +1,8 @@
 const express = require('express');
 const cors = require('cors');
 const studentRoutes = require('./routes/students');
+const dotenv      = require('dotenv');
+const authRoutes  = require('./routes/auth');
 
 const app = express();
 const PORT = 5000;
